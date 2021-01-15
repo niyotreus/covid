@@ -54,7 +54,7 @@ girisHTML = """
 padding: 2%;
 font-size: 300%;
 background: #ecd91d;
-border-radius: 50% 50%;
+border-radius: 25px;
 display: block;
 width: 20%;
 }
@@ -66,6 +66,9 @@ a{
 <head>
 </head>
 <center>
+<br>
+<h1>Covid-19 Aşısı Başvuru Sistemi</h1>
+<br>
 <a href="/kayit" class="buton">Yeni Kayıt</a><br>
 <a href="/kontrol" class="buton">Kontrol</a><br>
 <a href="/kayitlar" class="buton">Kayıtlılar</a><br>
