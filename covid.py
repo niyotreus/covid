@@ -38,13 +38,18 @@ table{
 }
 </style>
 <form action="kaydet" method="post">
+<center>
+<br>
+<h1>Covid-19 Aşısı Başvuru Sistemi</h1>
+<br>
 <table>
-<tr><td>Kimlik no:</td><td><input type="text" name="kimlik" size="6" required></td></tr>
-<tr><td>İsim Soyisim:</td><td><input type="text" name="namesurname" required></td></tr>
-<tr><td>Yaşı:</td><td><input type="text" name="age" size="2" required></td></tr>
-<tr><td>Telefon:</td><td><input type="tel" name="tel" required></td></tr>
+<tr><td>Kimlik no:</td><td><input type="text" name="kimlik" size="6" autocomplete="off" required></td></tr>
+<tr><td>İsim Soyisim:</td><td><input type="text" name="namesurname" autocomplete="off" required></td></tr>
+<tr><td>Yaşı:</td><td><input type="text" name="age" size="2" autocomplete="off" required></td></tr>
+<tr><td>Telefon:</td><td><input type="tel" name="tel" autocomplete="off" required></td></tr>
 <tr><td><input type="submit" value="Kaydet"></td></tr>
 </table>
+</center>
 </form>
 """
 
